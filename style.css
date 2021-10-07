@@ -74,6 +74,12 @@ h3 {
   border-radius: 4px;
   line-height: 125%;
 }
+.hamburger-menu {
+  display: none;
+}
+.menu {
+  display: none;
+}
 .first-page-bg {
   background: url("..//img/BG.jpg") no-repeat center;
 }
@@ -545,6 +551,25 @@ footer li {
   .navigation,
   .enter {
     display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  .show-menu {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    padding-bottom: 10px;
+  }
+  .menu li {
+    margin-top: 10px;
+  }
+  .menu a {
+    text-decoration: none;
+    color: white;
   }
   h1 {
     font-size: 55px;
