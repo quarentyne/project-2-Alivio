@@ -21,11 +21,11 @@ h3 {
   color: #01996d;
 }
 .container {
-  margin: 0 auto 0 275px;
+  width: 1400px;
+  margin: 0 auto;
 }
 .nav {
   display: flex;
-  margin-right: 275px;
   justify-content: space-between;
 }
 .nav img {
@@ -33,6 +33,7 @@ h3 {
   width: 79px;
   height: 23px;
 }
+
 .navigation a {
   text-decoration: none;
   color: #292929;
@@ -100,7 +101,8 @@ h1 {
 .hiworks {
   margin-right: 230px;
   margin-top: 170px;
-  height: 325px;
+  width: 1400px;
+  margin-bottom: 95px;
 }
 .about-steps {
   display: flex;
@@ -164,7 +166,7 @@ h2 {
 #inside-pic {
   position: absolute;
   top: 1982px;
-  left: 480px;
+  left: 460px;
 }
 .name-two {
   margin-top: 340px;
@@ -218,6 +220,8 @@ h2 {
 .media {
   margin-top: 230px;
   margin-left: 30px;
+  width: 895px;
+  height: 516px;
 }
 .container-product {
   margin-left: 335px;
@@ -337,4 +341,266 @@ footer li {
 .footer-anchors {
   padding-top: 95px;
   padding-bottom: 145px;
+}
+
+@media screen and (max-width: 1699px) {
+  .container {
+    width: 1200px;
+  }
+  .navigation {
+    margin: 0 30px;
+  }
+  .hiworks {
+    width: 1200px;
+  }
+  .steps {
+    width: 1200px;
+  }
+  #inside-pic {
+    position: absolute;
+    top: 2005px;
+    left: 325px;
+  }
+  .number-one {
+    top: 1395px;
+    left: 180px;
+  }
+  .number-two {
+    top: 1690px;
+    left: 600px;
+  }
+  .number-three {
+    top: 1460px;
+    left: 1030px;
+  }
+  .about-kaylas {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .container-kaylas {
+    width: 35%;
+  }
+  .media {
+    width: 40%;
+  }
+  .media video {
+    width: 650px;
+    height: 350px;
+  }
+  .container-product {
+    width: 1200px;
+    margin: 120px auto;
+  }
+  .card {
+    top: 4000px;
+    left: 75px;
+    width: 300px;
+    height: 290px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 1000px;
+  }
+  .hiworks {
+    width: 1000px;
+  }
+  .steps {
+    width: 1000px;
+  }
+  .steps img {
+    width: 85%;
+  }
+  #inside-pic {
+    position: absolute;
+    top: 2030px;
+    left: 164px;
+    width: 13%;
+  }
+  .number-one {
+    top: 1470px;
+    left: 100px;
+  }
+  .number-two {
+    top: 1765px;
+    left: 425px;
+  }
+  .number-three {
+    top: 1535px;
+    left: 750px;
+  }
+  .about-kaylas {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .container-kaylas {
+    width: 35%;
+    margin-left: 10%;
+  }
+  .container-kaylas h2 {
+    width: 95%;
+  }
+  .media {
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 30%;
+  }
+  .media video {
+    width: 400px;
+    height: 350px;
+  }
+  .container-product {
+    width: 100%;
+    margin: 100px auto;
+  }
+  .girl-bg img {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .card {
+    top: 4100px;
+    left: 0px;
+    width: 300px;
+    height: 290px;
+  }
+  .product {
+    margin-left: 35px;
+    width: 450px;
+  }
+  .product h2 {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container {
+    width: 95%;
+  }
+  .hiworks {
+    width: 95%;
+    margin-top: 100px;
+  }
+  .steps {
+    width: 95%;
+  }
+  #inside-pic {
+    top: 2130px;
+    left: 140px;
+    width: 13%;
+  }
+  .number-one {
+    top: 1455px;
+    left: 100px;
+  }
+  .number-two {
+    top: 1745px;
+    left: 325px;
+  }
+  .number-three {
+    top: 1515px;
+    left: 550px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .about-steps p {
+    width: 50%;
+  }
+  .media video {
+    width: 300px;
+    height: 250px;
+    margin-top: 0;
+  }
+  .girl-bg img {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .card {
+    top: 3800px;
+    left: 0px;
+    width: 300px;
+    height: 290px;
+  }
+  .product {
+    margin-left: 35px;
+    width: 250px;
+  }
+  .product h2 {
+    width: 250px;
+  }
+  .container-kaylas {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  footer li {
+    margin-top: 30px;
+  }
+  footer p {
+    margin-top: -50px;
+  }
+  .footer-anchors {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navigation,
+  .enter {
+    display: none;
+  }
+  h1 {
+    font-size: 55px;
+    margin-bottom: 40px;
+  }
+  .steps {
+    flex-wrap: wrap;
+  }
+  #inside-pic {
+    width: 35%;
+    top: 2150px;
+    left: 188px;
+  }
+  .name-two {
+    margin-top: 110px;
+  }
+  .number-one {
+    top: 1565px;
+    left: 100px;
+  }
+  .number-two {
+    top: 2415px;
+    left: 100px;
+  }
+  .number-three {
+    top: 3205px;
+    left: 100px;
+  }
+  .about-kaylas {
+    flex-wrap: wrap;
+  }
+  .container-kaylas {
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    width: 95%;
+  }
+  .media {
+    width: 95%;
+    height: 95%;
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+  .card {
+    top: 5620px;
+  }
+  .container-product {
+    flex-wrap: wrap;
+  }
+  .girl-bg {
+    order: 1;
+  }
+  .girl-bg img {
+    width: 95%;
+  }
+  .product {
+    order: -1;
+  }
 }
