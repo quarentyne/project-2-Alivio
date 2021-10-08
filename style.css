@@ -145,11 +145,11 @@ h2 {
   z-index: -1;
   color: #01996d;
   opacity: 0.2;
-  position: absolute;
+  position: relative;
 }
 .number-one {
-  top: 1395px;
-  left: 298px;
+  top: -225px;
+  left: 50px;
 }
 .step-name {
   font-family: "Gruppo";
@@ -164,31 +164,32 @@ h2 {
 }
 .steps-text {
   line-height: 150%;
+  margin-top: -180px;
 }
 .steps img {
   margin-top: 60px;
   border-radius: 12px;
 }
 #inside-pic {
-  position: absolute;
-  top: 1982px;
-  left: 460px;
+  position: relative;
+  top: -325px;
+  left: 205px;
 }
 .name-two {
   margin-top: 340px;
   margin-left: 85px;
 }
 .number-two {
-  top: 1685px;
-  left: 780px;
+  top: -225px;
+  left: 50px;
 }
 .name-three {
   margin-top: 110px;
   margin-left: 130px;
 }
 .number-three {
-  top: 1455px;
-  left: 1310px;
+  top: -225px;
+  left: 50px;
 }
 .about-kaylas {
   background-color: #245852;
@@ -362,23 +363,7 @@ footer li {
   .steps {
     width: 1200px;
   }
-  #inside-pic {
-    position: absolute;
-    top: 2005px;
-    left: 325px;
-  }
-  .number-one {
-    top: 1395px;
-    left: 180px;
-  }
-  .number-two {
-    top: 1690px;
-    left: 600px;
-  }
-  .number-three {
-    top: 1460px;
-    left: 1030px;
-  }
+
   .about-kaylas {
     width: 100%;
     margin: 0 auto;
@@ -418,22 +403,9 @@ footer li {
     width: 85%;
   }
   #inside-pic {
-    position: absolute;
-    top: 2030px;
-    left: 164px;
-    width: 13%;
-  }
-  .number-one {
-    top: 1470px;
-    left: 100px;
-  }
-  .number-two {
-    top: 1765px;
-    left: 425px;
-  }
-  .number-three {
-    top: 1535px;
-    left: 750px;
+    width: 40%;
+    top: -255px;
+    left: 150px;
   }
   .about-kaylas {
     width: 100%;
@@ -489,21 +461,8 @@ footer li {
     width: 95%;
   }
   #inside-pic {
-    top: 2130px;
-    left: 140px;
-    width: 13%;
-  }
-  .number-one {
-    top: 1455px;
-    left: 100px;
-  }
-  .number-two {
-    top: 1745px;
-    left: 325px;
-  }
-  .number-three {
-    top: 1515px;
-    left: 550px;
+    top: -235px;
+    left: 135px;
   }
   h2 {
     font-size: 35px;
@@ -577,26 +536,14 @@ footer li {
   }
   .steps {
     flex-wrap: wrap;
+    justify-content: center;
   }
   #inside-pic {
-    width: 35%;
-    top: 2150px;
-    left: 188px;
+    top: -290px;
+    left: 175px;
   }
   .name-two {
     margin-top: 110px;
-  }
-  .number-one {
-    top: 1565px;
-    left: 100px;
-  }
-  .number-two {
-    top: 2415px;
-    left: 100px;
-  }
-  .number-three {
-    top: 3205px;
-    left: 100px;
   }
   .about-kaylas {
     flex-wrap: wrap;
@@ -614,10 +561,13 @@ footer li {
     padding-bottom: 20px;
   }
   .card {
-    top: 5620px;
+    position: relative;
+    top: 600px;
+    left: -60px;
   }
   .container-product {
     flex-wrap: wrap;
+    justify-content: center;
   }
   .girl-bg {
     order: 1;
